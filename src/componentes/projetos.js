@@ -1,30 +1,32 @@
 import React from 'react';
-export function Projetos(props) {
+export function Projetos() {
 
     return (
 
         <div class="projeto">
             <div class="projetos">
 
-                <h2>Projetos:</h2>
+                <h2>Meus Projetos</h2>
 
-                <p>projetos que estou desenvolvendo</p>
+                <h3>Projetos que estou desenvolvendo:</h3>
+            </div>
 
-                <div class="A">
-                    {props.nome}
-                    {props.descricao}
+            <div class="projeto_quadros">
+                <div class="quadro">
+                    <h2 class="título_projeto">Projeto A</h2>
+                    <p>Descrição A</p>
                     <button>Ver Detalhes</button>
                 </div>
 
-                <div class="B">
-                    {props.nome1}
-                    {props.descricao1}
+                <div class="quadro">
+                    <h2 class="título_projeto">Projeto B</h2>
+                    <p>Descrição B</p>
                     <button>Ver Detalhes</button>
                 </div>
 
-                <div class="C">
-                    {props.nome2}
-                    {props.descricao2}
+                <div class="quadro">
+                    <h2 class="título_projeto">Projeto C</h2>
+                    <p>Descrição C</p>
                     <button>Ver Detalhes</button>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export default function PaginaInicial() {
 
       <Header />
 
-      <Projetos nome="Projeto1" descricao="projeto"/>
+      <Projetos />
 
     </div>
   )
